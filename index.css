@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+.nav-items>ul {
+    display: flex;
+    padding: 0px 20px;
+    list-style-type: none;
+
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.res-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 200px;
+    min-height: 360px;
+    padding: 7px;
+    margin: 15px;
+    background-color: beige;
+}
+
+.search {
+    padding: 10px;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    flex-wrap: wrap;
+}
+
+.child-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-rated-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-login {
+
+    /* border: 2px solid; */
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    /* background-color: darkseagreen; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box {
+    border: 3px solid;
+    border-color: orangered;
+    border-radius: 3px;
+    display: flex;
+    height: 25px;
+    margin: 16px;
+}
+
+.search-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 17px;
+    margin-left: 1px;
+    height: 25px;
+    width: 60px;
+}
+
+.search {
+    display: flex;
+}
+
+.shimmer-cards {
+    display: flex;
+    width: 200px;
+    height: 315px;
+    background: lightgray;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    border-radius: 4px;
+    opacity: 0.8;
+    padding: 7px;
+    margin: 15px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-img {
+    width: 175px;
+    height: 170px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter {
+    margin: 12px;
+}
+
+.res-link {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkblue;
+    margin: 5px;
+    padding: 10px;
+    line-height: 0.5;
+}
