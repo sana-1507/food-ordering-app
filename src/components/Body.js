@@ -64,7 +64,7 @@ const Body = () => {
             className="m-2 cursor-pointer bg-amber-200 rounded-sm p-1"
             onClick={() => {
               const filteredList = filteredRest.filter(
-                (res) => res.info.avgRating >= 4
+                (res) => res.info.avgRating >= 4.2
               );
               setListOfRestaurants(filteredList);
             }}
