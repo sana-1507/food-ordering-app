@@ -12,4 +12,4 @@
 
 ![Menu Items Screenshot](./screenshots/food-ordering2.jpg)
 
-![Menu Items Expanded Screenshot](./screenshots/food-ordering2.jpg)
+![Menu Items Expanded Screenshot](./screenshots/food-ordering3.jpg)
